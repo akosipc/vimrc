@@ -27,6 +27,7 @@ nn <leader>run        :call ScreenShellSend("clear && rspec ".@%)<CR>
 nn <leader>ruc        :call ScreenSheelSend("clear && cucumber --format=pretty ".@%)<CR>
 nn <leader>bn         :call ScreenShellSend("clear && bundle install")<CR>
 nn <leader>sx         :ScreenQuit<CR>
+nn <leader>zw         :ZoomWin<cr>
 
 nn <leader>"          I"<esc>Ea"<esc>
 nn <leader>'          I'<esc>Ea'<esc>
