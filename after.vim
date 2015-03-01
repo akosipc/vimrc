@@ -16,6 +16,9 @@ nn <leader>wq         :wqa<cr>
 nn <leader>vs         <c-w>v
 nn <leader>hs         :split<cr>
 nn <leader>gb         :Gblame<cr>
+nn <leader>gs         :Gstatus<CR>
+nn <leader>gd         :Gdiff<cr>
+nn <leader>gc         :Git commit -av<cr>
 nn <leader>n          :NERDTreeToggle<cr>
 nn <leader>lo         iLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 nn <leader>t          :tabnew<cr>
