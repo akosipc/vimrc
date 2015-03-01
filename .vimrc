@@ -22,13 +22,15 @@ Plugin 'tpope/vim-surround'
 Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-repeat'
-Plugin 'maxbrunsfeld/vim-yankstack'
+Plugin 'vim-scripts/YankRing.vim'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tsaleh/vim-align'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'ervandew/screen'
 Plugin 'Spaceghost/vim-matchit'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'vim-scripts/scratch.vim'
+
 
 " Fancy Stuvves
 Plugin 'bling/vim-airline'
@@ -62,6 +64,9 @@ let g:ctrlp_working_path_mode = ''
 
 " vim-indent-object
 let g:indentobject_meaningful_indentition = ["haml", "sass", "yaml", "markdown"]
+
+" yankring 
+let g:yankring_history_dir = '~/.vim/tmp/'
 
 " Formatting
 autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et

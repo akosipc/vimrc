@@ -24,7 +24,7 @@ nn <leader>lo         iLorem ipsum dolor sit amet, consectetur adipisicing elit,
 nn <leader>t          :tabnew<cr>
 nn <leader>tq         :tabclose<cr>
 nn <leader>yr         :YRShow<cr>
-nn <leader>st         :ScratchToggle<cr>
+nn <leader>st         :Scratch<cr>
 nn <leader>sr         :ScreenShellVertical<CR>
 nn <leader>run        :call ScreenShellSend("clear && rspec ".@%)<CR>
 nn <leader>ruc        :call ScreenSheelSend("clear && cucumber --format=pretty ".@%)<CR>
