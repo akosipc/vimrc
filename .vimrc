@@ -116,6 +116,7 @@ set tabstop=2
 set softtabstop=2
 set textwidth=0
 set shiftwidth=2
+set laststatus=2
 set expandtab
 set wrap
 set formatoptions=qrn1
@@ -132,6 +133,8 @@ set exrc
 set secure
 set matchtime=2
 set completeopt=longest,menuone,preview
+
+set syntax=enable
 
 command! W :w
 
