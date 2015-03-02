@@ -67,6 +67,9 @@ let g:indentobject_meaningful_indentition = ["haml", "sass", "yaml", "markdown"]
 
 " yankring 
 let g:yankring_history_dir = '~/.vim/tmp/'
+let g:yankring_replace_n_pkey = '<leader>['
+let g:yankring_replace_n_nkey = '<leader>]'
+
 
 " Formatting
 autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
