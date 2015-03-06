@@ -18,6 +18,7 @@ nn <leader>hs         :split<cr>
 nn <leader>gb         :Gblame<cr>
 nn <leader>gs         :Gstatus<CR>
 nn <leader>gd         :Gdiff<cr>
+nn <leader>ga         :Git add .<cr>
 nn <leader>gc         :Git commit -av<cr>
 nn <leader>n          :NERDTreeToggle<cr>
 nn <leader>lo         iLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -30,6 +31,8 @@ nn <leader>run        :call ScreenShellSend("clear && rspec ".@%)<CR>
 nn <leader>ruc        :call ScreenSheelSend("clear && cucumber --format=pretty ".@%)<CR>
 nn <leader>bn         :call ScreenShellSend("clear && bundle install")<CR>
 nn <leader>sx         :ScreenQuit<CR>
+nn <leader>np         :set nopaste<CR>
+nn <leader>pp         :set paste<cr>
 
 nn <leader>"          I"<esc>Ea"<esc>
 nn <leader>'          I'<esc>Ea'<esc>
