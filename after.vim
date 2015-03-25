@@ -7,7 +7,8 @@ set clipboard=unnamed
 
 syntax enable
 
-ino jj                 <esc>
+ino jj                <esc>
+ino kk                <esc>
 nn <tab>              <c-w>w
 nn <leader>a          ggVG
 nn <leader>y          yy
