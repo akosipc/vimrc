@@ -93,6 +93,7 @@ filetype plugin indent on
 syntax enable
 set switchbuf=useopen
 
+set visualbell
 set autoread
 set backspace=indent,eol,start
 set binary

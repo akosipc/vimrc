@@ -1,8 +1,11 @@
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH=$PATH:/Applications/Postgres.app/Contents/MacOS/bin/
 
 function branch_name() {
   echo 'git rev-parse --symbolic-full-name --abbrev-ref HEAD'
 }
+
+set visualbell
 
 alias gc="git commit -av"
 alias ga="git add ."
@@ -27,3 +30,5 @@ alias v="vim ."
 alias b="bundle install"
 alias grh="git reset --hard"
 alias grs="git reset --soft "
+alias gl="git log"
+alias gdall="git branch --merged | grep -v '\*' | xargs -n 1 git branch -d"
