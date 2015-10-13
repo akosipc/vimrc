@@ -63,7 +63,7 @@ nmap <C-x>            i<C-x>
 let CoVim_default_name = 'akosipc'
 let CoVim_default_port = '63363'
 
-let g:ctrlp_custom_ignore = { 'dir': 'tmp' }
+let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage'
 
 let g:ScreenImpl = 'Tmux'
 let g:ScreenShellTmuxInitArgs = '-2'
