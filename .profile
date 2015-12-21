@@ -1,4 +1,4 @@
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
 export PATH=$PATH:/Applications/Postgres.app/Contents/MacOS/bin/
 
 function branch_name() {
@@ -32,3 +32,14 @@ alias grh="git reset --hard"
 alias grs="git reset --soft "
 alias gl="git log"
 alias gdall="git branch --merged | grep -v '\*' | xargs -n 1 git branch -d"
+alias gsta="git stash"
+alias gstap="git stash pop"
+alias gstal="git stash list"
+alias r="rails"
+alias glp="git log --pretty=oneline"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export PATH="/usr/local/sbin:$PATH"
+

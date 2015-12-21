@@ -1,4 +1,4 @@
-color Atom
+color Molokai
 set t_Co=256
 set wrap
 set number
