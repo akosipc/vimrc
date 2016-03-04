@@ -12,6 +12,10 @@ Plugin 'tomasr/molokai'
 Plugin 'zaiste/Atom'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'whatyouhide/vim-gotham'
+Plugin 'changyuheng/color-scheme-holokai-for-vim'
+Plugin 'ewilazarus/preto'
+Plugin 'kocakosm/hilal'
+Plugin 'KKPMW/moonshine-vim'
 
 " Files
 Plugin 'scrooloose/nerdtree'

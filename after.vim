@@ -1,4 +1,4 @@
-color Molokai
+color moonshine
 set t_Co=256
 set wrap
 set number
@@ -29,8 +29,8 @@ nn <leader>tq         :tabclose<cr>
 nn <leader>yr         :YRShow<cr>
 nn <leader>st         :Scratch<cr>
 nn <leader>sr         :ScreenShellVertical<CR>
-nn <leader>run        :call ScreenShellSend("clear && rspec ".@%)<CR>
-nn <leader>ruc        :call ScreenSheelSend("clear && cucumber --format=pretty ".@%)<CR>
+nn <leader>run        :call ScreenShellSend("clear && spring rspec --format=doc ".@%)<CR>
+nn <leader>ruc        :call ScreenShellSend("clear && spring cucumber --format=pretty ".@%)<CR>
 nn <leader>bn         :call ScreenShellSend("clear && bundle install")<CR>
 nn <leader>sx         :ScreenQuit<CR>
 nn <leader>np         :set nopaste<CR>
@@ -63,9 +63,9 @@ nmap <C-x>            i<C-x>
 let CoVim_default_name = 'akosipc'
 let CoVim_default_port = '63363'
 
-let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage'
+let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage\|_build\|deps'
 
 let g:ScreenImpl = 'Tmux'
 let g:ScreenShellTmuxInitArgs = '-2'
 let g:ScreenShellQuitOnVimExit = 1
-let g:ScreenShellWidth = 60
+let g:ScreenShellWidth = 70
