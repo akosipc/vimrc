@@ -1,4 +1,4 @@
-color moonshine
+color Hilal
 set t_Co=256
 set wrap
 set number
