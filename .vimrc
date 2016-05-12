@@ -16,6 +16,7 @@ Plugin 'changyuheng/color-scheme-holokai-for-vim'
 Plugin 'ewilazarus/preto'
 Plugin 'kocakosm/hilal'
 Plugin 'KKPMW/moonshine-vim'
+Plugin 'scwood/vim-hybrid'
 
 " Files
 Plugin 'scrooloose/nerdtree'

@@ -1,4 +1,4 @@
-color Hilal
+color Holokai
 set t_Co=256
 set wrap
 set number

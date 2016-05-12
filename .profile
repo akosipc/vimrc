@@ -47,6 +47,13 @@ alias rr="rake routes"
 alias mpr="mix phoenix.routes"
 alias mps="iex -S mix phoenix.server"
 alias mt="mix test"
+alias mgm="mix phoenix.gen.model "
+alias mem="mix ecto.migrate"
+alias mec="mix ecto.create"
+alias mer="mix ecto.rollback"
+alias meall="mix ecto.create ecto.migrate"
+alias mdg="mix deps.get"
+
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
