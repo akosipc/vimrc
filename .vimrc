@@ -62,6 +62,9 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'gregsexton/gitv'
 Plugin 'tpope/vim-fugitive'
 
+" Testing
+Plugin 'janko-m/vim-test'
+
 call vundle#end()  
 
 " ctrl-p

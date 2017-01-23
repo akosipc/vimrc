@@ -1,4 +1,4 @@
-color Holokai
+color Vividchalk
 set t_Co=256
 set wrap
 set number
@@ -30,8 +30,6 @@ nn <leader>yr         :YRShow<cr>
 nn <leader>st         :Scratch<cr>
 nn <leader>sr         :ScreenShellVertical<CR>
 nn <leader>run        :call ScreenShellSend("clear && spring rspec --format=doc ".@%)<CR>
-nn <leader>ruc        :call ScreenShellSend("clear && spring cucumber --format=pretty ".@%)<CR>
-nn <leader>bn         :call ScreenShellSend("clear && bundle install")<CR>
 nn <leader>sx         :ScreenQuit<CR>
 nn <leader>np         :set nopaste<CR>
 nn <leader>pp         :set paste<cr>
@@ -47,6 +45,9 @@ nn <leader><leader>'  I'<esc>A'<esc>
 nn <leader><leader>{  I{<esc>A}<esc>
 nn <leader><leader>[  I[<esc>A]<esc>
 nn <leader><leader>(  I(<esc>A)<esc>
+
+nn <leader><leader>run :TestFile<CR>
+nn <leader><leader>rul :TestLast<CR>
 
 
 au BufRead,BufNewFile *.deface  set filetype=html
