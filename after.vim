@@ -48,7 +48,8 @@ nn <leader><leader>(  I(<esc>A)<esc>
 
 nn <leader><leader>run :TestFile<CR>
 nn <leader><leader>rul :TestLast<CR>
-
+nn <leader><leader>rut :TestNearest<CR>
+nn <leader><leader>p   :FZF<CR>
 
 au BufRead,BufNewFile *.deface  set filetype=html
 au BufRead,BufNewFile *.ejs     set filetype=html

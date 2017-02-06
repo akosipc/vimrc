@@ -21,6 +21,7 @@ Plugin 'scwood/vim-hybrid'
 " Files
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
+Plugin 'junegunn/fzf'
 
 " Utility
 Plugin 'tpope/vim-surround'
@@ -35,7 +36,6 @@ Plugin 'ervandew/screen'
 Plugin 'Spaceghost/vim-matchit'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/scratch.vim'
-
 
 " Fancy Stuvves
 Plugin 'bling/vim-airline'
