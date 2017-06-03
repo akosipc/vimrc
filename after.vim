@@ -1,4 +1,4 @@
-color Vividchalk
+color Atom
 set t_Co=256
 set wrap
 set number
@@ -65,7 +65,7 @@ nmap <C-x>            i<C-x>
 let CoVim_default_name = 'akosipc'
 let CoVim_default_port = '63363'
 
-let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage\|_build\|deps'
+let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage\|_build\|deps\|ios\|andriod\|'
 
 let g:ScreenImpl = 'Tmux'
 let g:ScreenShellTmuxInitArgs = '-2'
