@@ -1,4 +1,4 @@
-color Atom
+color Holokai``
 set t_Co=256
 set wrap
 set number
@@ -31,6 +31,7 @@ nn <leader>st         :Scratch<cr>
 nn <leader>sr         :ScreenShellVertical<CR>
 nn <leader>run        :call ScreenShellSend("clear && spring rspec --format=doc ".@%)<CR>
 nn <leader>sx         :ScreenQuit<CR>
+nn <leader>fzf        :FZF<CR>
 nn <leader>np         :set nopaste<CR>
 nn <leader>pp         :set paste<cr>
 
@@ -49,7 +50,8 @@ nn <leader><leader>(  I(<esc>A)<esc>
 nn <leader><leader>run :TestFile<CR>
 nn <leader><leader>rul :TestLast<CR>
 nn <leader><leader>rut :TestNearest<CR>
-nn <leader><leader>p   :FZF<CR>
+
+nn <C-p> :FZF<CR>
 
 au BufRead,BufNewFile *.deface  set filetype=html
 au BufRead,BufNewFile *.ejs     set filetype=html
@@ -65,7 +67,7 @@ nmap <C-x>            i<C-x>
 let CoVim_default_name = 'akosipc'
 let CoVim_default_port = '63363'
 
-let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage\|_build\|deps\|ios\|andriod\|'
+let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage\|_build\|deps\|ios\|android\|cookbooks'
 
 let g:ScreenImpl = 'Tmux'
 let g:ScreenShellTmuxInitArgs = '-2'

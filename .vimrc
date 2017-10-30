@@ -22,6 +22,7 @@ Plugin 'scwood/vim-hybrid'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'junegunn/fzf'
+Plugin 'mitermayer/vim-prettier'
 
 " Utility
 Plugin 'tpope/vim-surround'
