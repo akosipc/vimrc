@@ -1,4 +1,4 @@
-color Holokai
+color vividchalk
 set t_Co=256
 set wrap
 set number
@@ -58,7 +58,11 @@ au BufRead,BufNewFile *.ejs     set filetype=html
 au BufRead,BufNewFile *.embled  set filetype=html
 au BufRead,BufNewFile *.eex     set filetype=html
 au BufRead,BufNewFile *.less    set filetype=scss
+au BufRead,BufNewFile *.ts      set filetype=typescript
 autocmd BufRead,BufNewFile *.es6 setfiletype javascript
+autocmd BufRead,BufNewFile *.ts setfiletype javascript
+autocmd FileType *.jsx setlocal commentstring={/*\ %s\ */}
+
 
 vmap <C-c>            :w !pbcopy<cr><cr>
 imap <C-x>            <Esc>:set paste<cr>:r !pbpaste<cr>:set nopaste<cr>
@@ -67,9 +71,12 @@ nmap <C-x>            i<C-x>
 let CoVim_default_name = 'akosipc'
 let CoVim_default_port = '63363'
 
-let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage\|_build\|deps\|ios\|android\|cookbooks'
+let g:ctrlp_custom_ignore = 'node_modules\|tmp\|coverage\|_build\|deps\|ios\|android\|cookbooks\|sorbet'
 
 let g:ScreenImpl = 'Tmux'
 let g:ScreenShellTmuxInitArgs = '-2'
 let g:ScreenShellQuitOnVimExit = 1
 let g:ScreenShellWidth = 70
+
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=

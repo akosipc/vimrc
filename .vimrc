@@ -55,9 +55,17 @@ Plugin 'lunaru/vim-less'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'alfredodeza/jacinto.vim'
 Plugin 'heartsentwined/vim-emblem'
+Plugin 'pangloss/vim-javascript'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'MaxMEllon/vim-jsx-pretty'
+Plugin 'styled-components/vim-styled-components'
 
 " Elixir
 Plugin 'elixir-lang/vim-elixir'
+
+" Go
+Plugin 'fatih/vim-go'
 
 " Git
 Plugin 'gregsexton/gitv'
@@ -102,13 +110,11 @@ filetype plugin indent on
 syntax enable
 set switchbuf=useopen
 
-set visualbell
 set autoread
 set backspace=indent,eol,start
 set binary
 set cinoptions=:0,(s,u0,U1,g0,t0
 set completeopt=menuone,preview
-set nolazyredraw
 set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮,trail:␣
 set notimeout
 set ttimeout
@@ -125,7 +131,6 @@ set backup
 set noswapfile
 set encoding=utf-8
 set autoindent
-set relativenumber
 set winwidth=83
 set numberwidth=3
 set modelines=0
